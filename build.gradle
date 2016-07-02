@@ -1,0 +1,44 @@
+group 'sneakysurgeons.pokecalc'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+mainClassName = "sneakysurgeons.pokecalc.Server"
+
+run {
+    // hand all Properties through because Gradle will fork the process
+    systemProperties System.getProperties()
+}
+
+// Task that sets up some default values that will make the server load files from disk instead from classpath
+// (also provides a default path for the sqlite database)
+task(develop, type: JavaExec) {
+    //noinspection GroovyAssignabilityCheck
+    main mainClassName
+    //noinspection GroovyAssignabilityCheck
+    classpath sourceSets.main.runtimeClasspath
+    systemProperties([DEVELOP     : 'true',
+                      DEVELOP_PATH: "file:///$projectDir/src/main/resources",
+                      SQLITE_PATH : "pokedex.sqlite"])
+}
+
+dependencies {
+    compile "org.takes:takes:+"
+    compile 'com.hubspot.jinjava:jinjava:2.1.0'
+
+    compile 'com.dieselpoint:norm:0.8.1-rc2'
+    compile 'org.xerial:sqlite-jdbc:3.8.11.2'
+
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'ch.qos.logback:logback-classic:1.1.7'
+
+    compile 'com.intellij:annotations:+'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

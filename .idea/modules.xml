@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pokecalc.iml" filepath="$PROJECT_DIR$/.idea/modules/pokecalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pokecalc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pokecalc_main.iml" group="pokecalc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pokecalc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pokecalc_test.iml" group="pokecalc" />
+    </modules>
+  </component>
+</project>
