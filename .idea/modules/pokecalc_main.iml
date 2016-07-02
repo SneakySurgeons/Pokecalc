@@ -9,8 +9,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.takes:takes:1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.hubspot.jinjava:jinjava:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.takes:takes:0.32.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.hubspot.jinjava:jinjava:2.1.9" level="project" />
     <orderEntry type="library" name="Gradle: com.dieselpoint:norm:0.8.1-rc2" level="project" />
     <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.8.11.2" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />

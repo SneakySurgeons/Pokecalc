@@ -10,14 +10,14 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pokecalc_main" />
-    <orderEntry type="library" name="Gradle: org.takes:takes:1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.hubspot.jinjava:jinjava:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.takes:takes:0.32.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.hubspot.jinjava:jinjava:2.1.9" level="project" />
     <orderEntry type="library" name="Gradle: com.dieselpoint:norm:0.8.1-rc2" level="project" />
     <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.8.11.2" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.7" level="project" />
     <orderEntry type="library" name="Gradle: com.intellij:annotations:12.0" level="project" />
-    <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:18.0" level="project" />
     <orderEntry type="library" name="Gradle: org.javassist:javassist:3.18.2-GA" level="project" />
     <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.8.1" level="project" />
