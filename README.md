@@ -1,6 +1,7 @@
 # Pokecalc
 
-[![Build Status](https://travis-ci.org/SneakySurgeons/Pokecalc.svg?branch=master)](https://travis-ci.org/SneakySurgeons/Pokecalc)
+[![Build Status](https://travis-ci.org/SneakySurgeons/Pokecalc.svg?branch=master)](https://travis-ci.org/SneakySurgeons/Pokecalc) [![Dependencies](https://www.versioneye.com/user/projects/5777e2b068ee07003cb5d6ba/badge.svg)](https://www.versioneye.com/user/projects/5777e2b068ee07003cb5d6ba) [![license](https://img.shields.io/github/license/SneakySurgeons/pokecalc.svg?maxAge=2592000)](https://github.com/SneakySurgeons/Pokecalc/blob/master/LICENSE)
+
 
 This repository contains the code for the pokecalc site.
 
